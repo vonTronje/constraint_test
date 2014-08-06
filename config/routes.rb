@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   get 'photos', to: 'photos#index'
   post 'photos/:id', to: 'photos#show'
 
